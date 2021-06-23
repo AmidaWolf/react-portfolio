@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 *{
@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
   }
   html{
     font-size: 10px;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono',serif;
     background-color: var(--dark-bg);
   }
   ul,li{
@@ -38,6 +38,18 @@ const GlobalStyles = createGlobalStyle`
     width: 90%;
     margin: 0 auto;
   }
+  .visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+  }
 /* Smooth Scroll  */
   [data-scrollbar] {
     height: 100vh;
@@ -46,7 +58,7 @@ const GlobalStyles = createGlobalStyle`
     .scroll-content {
       background-color: var(--dark-bg);
     }
-    .scrollbar-track.scrollbar-track-y {
+    .scrollbar-track .scrollbar-track-y {
       background: var(--deep-dark);
       .scrollbar-thumb-y {
         background: var(--gray-1);
