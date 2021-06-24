@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/avatar-uncolor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/SectionTitle/SectionTitle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/SkillsSection/SkillsSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/TextBlock/TextBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +62,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/сomponents/HeroSection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/сomponents" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\coding\react-portfolio\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\coding\react-portfolio\src\сomponents\Button" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\coding\react-portfolio\src\сomponents" />
       <recent name="C:\coding\react-portfolio\src\сomponents\HeroSection" />
       <recent name="C:\coding\react-portfolio\src\pages\Projects" />
       <recent name="C:\coding\react-portfolio\src\pages\Home" />
       <recent name="C:\coding\react-portfolio\src\pages\Contacts" />
-      <recent name="C:\coding\react-portfolio\src\pages\About" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\coding\react-portfolio\src\сomponents\TextBlock" />
+      <recent name="C:\coding\react-portfolio\src\сomponents\Button" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,7 +110,7 @@
       <workItem from="1624373505916" duration="162000" />
       <workItem from="1624374222934" duration="342000" />
       <workItem from="1624377560197" duration="26010000" />
-      <workItem from="1624483957437" duration="5587000" />
+      <workItem from="1624483957437" duration="16618000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624449249831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(hero): add hero section + info + button">
+      <created>1624534979316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624534979316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +155,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat(all): create project&#10;&#10;add global styles and typography, add some images" />
     <MESSAGE value="feat(pages, menu): add pages, menu &amp; styles, func-s&#10;&#10;+del unused dep-s" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="feat(hero): add hero section + info + button" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(hero): add hero section + info + button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -179,9 +187,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624455575989" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624449261221">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624534991136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624449261221" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624534991136" />
   </component>
 </project>

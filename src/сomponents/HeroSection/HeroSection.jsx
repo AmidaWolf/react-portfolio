@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import heroImg from '../../assets/images/avatar.jpg';
 import socialMediaArrow from '../../assets/images/social-media-arrow.svg';
 import scrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
-import {HeroInfo} from "./HeroInfo";
 import {Button} from "../Button/Button";
+import {TextBlock} from "../TextBlock/TextBlock";
 
 
 const HeroSectionStyles = styled.section`
@@ -100,6 +100,7 @@ const HeroSectionStyles = styled.section`
           transform: rotate(-90deg);
           letter-spacing: 5px;
           margin-bottom: 2rem;
+          text-transform: uppercase;
         }
         a:hover {
           color: var(--white)
@@ -108,9 +109,8 @@ const HeroSectionStyles = styled.section`
     }
   }
   @media only screen and (max-width: 768px) {
-    .hero {
-      min-height: 750px;
-    }
+     min-height: 750px;
+      
     .hero__title {
       font-size: 1.4rem;
       margin-bottom: -5rem;
@@ -171,11 +171,10 @@ export const HeroSection = () => {
                     <img src={heroImg} alt="Yauhen Varapayeu"/>
                 </div>
                 <div className={'hero__info'}>
-                    <HeroInfo>
-                        I am working as a freelance web developer for 1 year.
-                        In my projects I use pure JS and CSS or React with Redux and hooks.
+                    <TextBlock>
+                        I am working as a freelance web developer for 2 years.
                         I love to get new web experience and learn something new!
-                    </HeroInfo>
+                    </TextBlock>
                     <Button
                         btnLink={'/projects'}
                         btnText={'See my works'}
