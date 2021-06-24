@@ -17,6 +17,7 @@ const HeroSectionStyles = styled.section`
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: 0;
     
   .hero__title {
     font-size: 2rem;

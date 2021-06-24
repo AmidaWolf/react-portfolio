@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/CV/CV.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/ButtonsGroup/ButtonsGroup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/SkillsItem/SkillsItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/сomponents/SkillsSection/SkillsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/SkillsSection/SkillsSection.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/сomponents" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\coding\react-portfolio\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -73,9 +66,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\coding\react-portfolio\src\сomponents" />
       <recent name="C:\coding\react-portfolio\src\pages" />
       <recent name="C:\coding\react-portfolio\src\сomponents\ButtonsGroup" />
-      <recent name="C:\coding\react-portfolio\src\сomponents" />
       <recent name="C:\coding\react-portfolio\src\сomponents\HeroSection" />
       <recent name="C:\coding\react-portfolio\src\pages\Projects" />
     </key>
@@ -113,7 +106,7 @@
       <workItem from="1624373505916" duration="162000" />
       <workItem from="1624374222934" duration="342000" />
       <workItem from="1624377560197" duration="26010000" />
-      <workItem from="1624483957437" duration="19928000" />
+      <workItem from="1624483957437" duration="23923000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -143,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624554060793</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(ButtonsGroup): add ButtonsGroup.jsx&#10;&#10;small style fix">
+      <created>1624557363547</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624557363547</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +167,8 @@
     <MESSAGE value="feat(pages, menu): add pages, menu &amp; styles, func-s&#10;&#10;+del unused dep-s" />
     <MESSAGE value="feat(hero): add hero section + info + button" />
     <MESSAGE value="feat(about): add AboutSection + SectionTitle" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(about): add AboutSection + SectionTitle" />
+    <MESSAGE value="feat(ButtonsGroup): add ButtonsGroup.jsx&#10;&#10;small style fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ButtonsGroup): add ButtonsGroup.jsx&#10;&#10;small style fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -198,9 +199,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624455575989" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624554071056">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624557370466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624554071056" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624557370466" />
   </component>
 </project>
