@@ -20,22 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper-functions/useOutsideClickForHide.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contacts/Contacts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Projects/Projects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/avatar-uncolor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,25 +48,33 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1uInRRE5u9l1vNP44d8Kh5Ipa56" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/сomponents/HeroSection" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\coding\react-portfolio\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\coding\react-portfolio\src\сomponents\Button" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\coding\react-portfolio\src\сomponents\HeroSection" />
       <recent name="C:\coding\react-portfolio\src\pages\Projects" />
       <recent name="C:\coding\react-portfolio\src\pages\Home" />
       <recent name="C:\coding\react-portfolio\src\pages\Contacts" />
@@ -109,7 +109,8 @@
       <workItem from="1624361968937" duration="9171000" />
       <workItem from="1624373505916" duration="162000" />
       <workItem from="1624374222934" duration="342000" />
-      <workItem from="1624377560197" duration="13131000" />
+      <workItem from="1624377560197" duration="26010000" />
+      <workItem from="1624483957437" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624367288309</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(pages, menu): add pages, menu &amp; styles, func-s&#10;&#10;+del unused dep-s">
+      <created>1624449249831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624449249831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,8 +145,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat(all): create project&#10;&#10;add global styles and typography, add some images" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(all): create project&#10;&#10;add global styles and typography, add some images" />
+    <MESSAGE value="feat(pages, menu): add pages, menu &amp; styles, func-s&#10;&#10;+del unused dep-s" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -149,29 +159,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624366300190" />
-    <state width="1345" height="175" key="GridCell.Tab.0.bottom" timestamp="1624377959125">
+    <state width="1345" height="175" key="GridCell.Tab.0.bottom" timestamp="1624484020109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624377959125" />
-    <state width="1345" height="175" key="GridCell.Tab.0.center" timestamp="1624377959125">
+    <state width="1345" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624484020109" />
+    <state width="1345" height="175" key="GridCell.Tab.0.center" timestamp="1624484020109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624377959125" />
-    <state width="1345" height="175" key="GridCell.Tab.0.left" timestamp="1624377959125">
+    <state width="1345" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624484020109" />
+    <state width="1345" height="175" key="GridCell.Tab.0.left" timestamp="1624484020109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624377959125" />
-    <state width="1345" height="175" key="GridCell.Tab.0.right" timestamp="1624377959125">
+    <state width="1345" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624484020109" />
+    <state width="1345" height="175" key="GridCell.Tab.0.right" timestamp="1624484020109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624377959125" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1624406004216">
+    <state width="1345" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624484020109" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1624455575989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624406004216" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624367305864">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624455575989" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624449261221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624367305864" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624449261221" />
   </component>
 </project>
