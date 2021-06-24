@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import heroImg from '../../assets/images/avatar.jpg';
 import socialMediaArrow from '../../assets/images/social-media-arrow.svg';
 import scrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
-import {Button} from "../Button/Button";
 import {TextBlock} from "../TextBlock/TextBlock";
+import {ButtonsGroup} from "../ButtonsGroup/ButtonsGroup";
 
 
 const HeroSectionStyles = styled.section`
@@ -49,6 +49,9 @@ const HeroSectionStyles = styled.section`
     margin-top: -20rem;
     position: relative;
     z-index: 1;
+  }
+  .buttons-wrapper {
+    max-width: 100%;
   }
   .hero__social,
   .hero__scrollDown {
@@ -110,6 +113,7 @@ const HeroSectionStyles = styled.section`
   }
   @media only screen and (max-width: 768px) {
      min-height: 750px;
+     margin-top: 7rem;
       
     .hero__title {
       font-size: 1.4rem;
@@ -175,10 +179,13 @@ export const HeroSection = () => {
                         I am working as a freelance web developer for 2 years.
                         I love to get new web experience and learn something new!
                     </TextBlock>
-                    <Button
-                        btnLink={'/projects'}
-                        btnText={'See my works'}
-                        outline={false}
+                    <ButtonsGroup
+                        firstBtnText={'See my works'}
+                        firstBtnLink={'/projects'}
+                        text={'or'}
+                        secondBtnText={'Take my SV'}
+                        secondBtnLink={'/sv'}
+                        secondBtnOutline
                     />
                 </div>
                 <div className="hero__social">

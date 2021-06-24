@@ -1,28 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {Button} from "../Button/Button";
 import {TextBlock} from "../TextBlock/TextBlock";
 import {SectionTitle} from "../SectionTitle/SectionTitle";
+import {ButtonsGroup} from "../ButtonsGroup/ButtonsGroup";
 
 
 const AboutSectionStyles = styled.section`
-padding: 7rem 0;
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    text-align: left;
   }
-
-  .aboutSection__buttons {
-    display: flex;
-    justify-content: space-between;
-    max-width: 500px;
-    width: 100%;
-    gap: 2rem;
-    margin-top: 2rem;
+  
+  .aboutSection__text {
+    margin-bottom: 2rem;
   }
   
   .aboutSection__text div {
@@ -76,11 +68,13 @@ export const AboutSection = () => {
                         A total reboot of career and life, something like that.
                     </TextBlock>
                 </div>
-
-                <div className="aboutSection__buttons">
-                    <Button btnText="Works" btnLink="/projects" />
-                    <Button btnText="Read More" btnLink="/about" outline />
-                </div>
+                <ButtonsGroup
+                    firstBtnText={'Works'}
+                    firstBtnLink={'/projects'}
+                    secondBtnText={'Read more'}
+                    secondBtnLink={'/about'}
+                    secondBtnOutline
+                />
             </div>
         </AboutSectionStyles>
     );

@@ -38,6 +38,9 @@ const GlobalStyles = createGlobalStyle`
     width: 90%;
     margin: 0 auto;
   }
+  section {
+    margin-top: 7rem;
+  }
   .visually-hidden {
    position: absolute;
    white-space: nowrap;

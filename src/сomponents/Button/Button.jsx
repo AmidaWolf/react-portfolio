@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 
 
 const ButtonStyle = styled.div`
-  margin-top: 2rem;
   .button {
     font-size: 2.2rem;
     background-color: ${(props) =>

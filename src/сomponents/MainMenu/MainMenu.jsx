@@ -140,6 +140,7 @@ export const MainMenu = () => {
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/projects">Projects</NavLink></li>
                 <li><NavLink to="/contacts">Contacts</NavLink></li>
+                <li><NavLink to="/cv">CV</NavLink></li>
             </ul>
         </MainMenuStyles>
     );
