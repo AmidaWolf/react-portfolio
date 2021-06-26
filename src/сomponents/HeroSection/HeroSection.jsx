@@ -18,6 +18,7 @@ const HeroSectionStyles = styled.section`
     justify-content: center;
     position: relative;
     margin-top: 0;
+    padding-bottom: 0;
     
   .hero__title {
     font-size: 2rem;
@@ -47,7 +48,7 @@ const HeroSectionStyles = styled.section`
     }
   }
   .hero__info {
-    margin-top: -20rem;
+    margin-top: -22rem;
     position: relative;
     z-index: 1;
   }

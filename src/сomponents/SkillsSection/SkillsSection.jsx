@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import {SiGithub, SiHtml5, SiJavascript, SiReact, SiRedux} from "react-icons/all";
 
 import {SectionTitle} from "../SectionTitle/SectionTitle";
 import {SkillsItem} from "../SkillsItem/SkillsItem";
-import {SiGithub, SiHtml5, SiJavascript, SiReact, SiRedux} from "react-icons/all";
 
 
 const SkillsSectionStyles = styled.section`
@@ -31,8 +31,10 @@ const SkillsSectionStyles = styled.section`
       gap: 7rem;
     }
   }
-  
   @media only screen and (max-width: 768px) {
+  .skills-items-wrapper {
+      max-width: 100%;
+    }
     .skillsSection__wrapper {
       flex-direction: column;
       max-width: 300px;
@@ -62,6 +64,11 @@ export const SkillsSection = () => {
                         desc={'JavaScript ES6+ with async/await and etc.'}
                     />
                     <SkillsItem
+                    icon={<SiGithub />}
+                    title={'Git/GitHub'}
+                    desc={'Basic Git with Github/Gitlab, GitHub Flow and GitFlow strategies '}
+                    />
+                    <SkillsItem
                         icon={<SiReact />}
                         title={'React'}
                         desc={'React with hooks, react-dom and react-router-dom.'}
@@ -70,11 +77,6 @@ export const SkillsSection = () => {
                         icon={<SiRedux />}
                         title={'Redux'}
                         desc={'Redux with react-redux and redux-thunk.'}
-                    />
-                    <SkillsItem
-                        icon={<SiGithub />}
-                        title={'Git/GitHub'}
-                        desc={'Basic Git with Github/Gitlab, GitHub Flow and GitFlow strategies '}
                     />
                 </div>
             </div>

@@ -40,6 +40,7 @@ const GlobalStyles = createGlobalStyle`
   }
   section {
     margin-top: 7rem;
+    padding-bottom: 14rem;
   }
   .visually-hidden {
    position: absolute;
