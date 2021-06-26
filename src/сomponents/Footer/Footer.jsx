@@ -132,7 +132,7 @@ export const Footer = () => {
                 <div className={'container'}>
                     <TextBlock>
                         2021&nbsp;&mdash; Yauhen Varapayeu&nbsp;&copy;&nbsp;|&nbsp;
-                        <a target='_blank' rel='noreferrer' href='#'>
+                        <a target='_blank' rel='noreferrer' href='https://awportfolio-site.netlify.app/'>
                             AmidaWolf
                         </a>
                     </TextBlock>

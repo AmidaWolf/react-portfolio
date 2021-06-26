@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/сomponents/ContactBanner/ContactBanner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/Footer/FooterCol/FooterCol.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/ButtonsGroup/ButtonsGroup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ButtonsGroup/ButtonsGroup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectsSection.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +105,7 @@
       <workItem from="1624373505916" duration="162000" />
       <workItem from="1624374222934" duration="342000" />
       <workItem from="1624377560197" duration="26010000" />
-      <workItem from="1624483957437" duration="63789000" />
+      <workItem from="1624483957437" duration="64630000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -165,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624667848327</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat(Footer): add Footer + ContactBanner&#10;&#10;linting and small style fixes">
+      <created>1624737907071</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624737907072</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +190,8 @@
     <MESSAGE value="feat(ButtonsGroup): add ButtonsGroup.jsx&#10;&#10;small style fix" />
     <MESSAGE value="feat(SkillsSection): add SkillsSection + SkillsItem&#10;&#10;small style fix HeroSection.jsx" />
     <MESSAGE value="feat(Projects): add Projects&#10;&#10;add ProjectsSection.jsx and projects data, small style fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Projects): add Projects&#10;&#10;add ProjectsSection.jsx and projects data, small style fixes" />
+    <MESSAGE value="feat(Footer): add Footer + ContactBanner&#10;&#10;linting and small style fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Footer): add Footer + ContactBanner&#10;&#10;linting and small style fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -223,10 +222,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624455575989" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624667858694">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624737913975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624667858694" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624737913975" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624653147208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

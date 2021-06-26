@@ -59,7 +59,7 @@ export const projects = [
         name: 'Portfolio site',
         description: 'Training portfolio site. Constantly updated, constantly improved.',
         img: portfolio,
-        deploy: 'https://amidawolf.github.io/.react-way-of-samurai/',
+        deploy: 'https://awportfolio-site.netlify.app/',
         github: 'https://github.com/AmidaWolf/react-portfolio',
         tags: ['react', 'react hooks', 'styled-components', 'swiper', 'uuid', 'jest']
     }
