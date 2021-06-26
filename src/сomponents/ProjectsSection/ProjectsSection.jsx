@@ -1,16 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Swiper, SwiperSlide} from "swiper/react";
-import SwiperCore, { Navigation, A11y } from "swiper";
+import {Swiper, SwiperSlide} from 'swiper/react';
+import SwiperCore, {Navigation, A11y} from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import {
     MdKeyboardArrowLeft,
     MdKeyboardArrowRight,
-} from "react-icons/all";
+} from 'react-icons/all';
 
-import {SectionTitle} from "../SectionTitle/SectionTitle";
-import {projects} from "../../data/projects/projects";
-import {ProjectItem} from "./ProjectItem/ProjectItem";
+import {SectionTitle} from '../SectionTitle/SectionTitle';
+import {projects} from '../../data/projects/projects';
+import {ProjectItem} from './ProjectItem/ProjectItem';
 
 
 const ProjectsSectionStyles = styled.section`
@@ -33,6 +33,7 @@ const ProjectsSectionStyles = styled.section`
   .custom-prev {
     color: var(--gray-1);
     margin-left: 1rem;
+    cursor: pointer;
   }
   
   .custom-next svg,
@@ -68,21 +69,21 @@ export const ProjectsSection = () => {
         <ProjectsSectionStyles>
             <div className={'container'}>
                 <SectionTitle
-                    subtitleText="Some of my recent works"
-                    titleText="Projects"
+                    subtitleText={'Some of my recent works'}
+                    titleText={'Projects'}
                 />
-                <div className="projects__allItems">
+                <div className={'projects__allItems'}>
                     <div className={'custom-controls'}>
-                        <div className="custom-prev"><MdKeyboardArrowLeft/></div>
-                        <div className="custom-next"><MdKeyboardArrowRight/></div>
+                        <div className={'custom-prev'} role={'button'}><MdKeyboardArrowLeft/></div>
+                        <div className={'custom-next'} role={'button'}><MdKeyboardArrowRight/></div>
                     </div>
 
                     <Swiper
                         spaceBetween={30}
                         slidesPerView={1}
                         navigation={{
-                            nextEl: ".custom-next",
-                            prevEl: ".custom-prev"
+                            nextEl: '.custom-next',
+                            prevEl: '.custom-prev'
                         }}
                         breakpoints={{
                             // when window width is >= 640px

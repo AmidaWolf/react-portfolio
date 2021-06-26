@@ -49,32 +49,32 @@ export const SkillsSection = () => {
         <SkillsSectionStyles>
             <div className={'container'}>
                 <SectionTitle
-                    titleText="My Skills"
+                    titleText={"My Skills"}
                 />
                 <div className={'skillsSection__wrapper'}>
                     <SkillsItem
-                        icon={<SiHtml5 />}
+                        icon={<SiHtml5/>}
                         title={'HTML5/CSS3'}
                         desc={'HTML5/CSS3 with W3C and ARIA/Web Accessibility standards, ' +
                         'responsive/mobile, BEM and basic LESS/SASS.'}
                     />
                     <SkillsItem
-                        icon={<SiJavascript />}
+                        icon={<SiJavascript/>}
                         title={'JavaScript'}
                         desc={'JavaScript ES6+ with async/await and etc.'}
                     />
                     <SkillsItem
-                    icon={<SiGithub />}
-                    title={'Git/GitHub'}
-                    desc={'Basic Git with Github/Gitlab, GitHub Flow and GitFlow strategies '}
+                        icon={<SiGithub/>}
+                        title={'Git/GitHub'}
+                        desc={'Basic Git with Github/Gitlab, GitHub Flow and GitFlow strategies '}
                     />
                     <SkillsItem
-                        icon={<SiReact />}
+                        icon={<SiReact/>}
                         title={'React'}
                         desc={'React with hooks, react-dom and react-router-dom.'}
                     />
                     <SkillsItem
-                        icon={<SiRedux />}
+                        icon={<SiRedux/>}
                         title={'Redux'}
                         desc={'Redux with react-redux and redux-thunk.'}
                     />

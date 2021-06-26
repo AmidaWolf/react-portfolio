@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link} from "react-router-dom";
+import {Link} from 'react-router-dom';
 
 
 const ButtonStyle = styled.div`
@@ -15,7 +15,7 @@ const ButtonStyle = styled.div`
     color: ${(props) => (props.outline ? 'var(--gray-1)' : 'black')};
   }
   .button:hover {
-    background-color: ${(props) => 
+    background-color: ${(props) =>
     props.outline ? 'var(--gray-1)' : 'var(--gray-2)'};
     color: ${(props) => (props.outline ? 'var(--black)' : 'var(--gray-1)')};
   }
@@ -32,8 +32,8 @@ export const Button = ({
                            outline = false,
                        }) => {
     return (
-        <ButtonStyle outline={outline} className="button-wrapper">
-            <Link className="button" to={btnLink}>{btnText}</Link>
+        <ButtonStyle outline={outline} className={'button-wrapper'}>
+            <Link className={'button'} to={btnLink}>{btnText}</Link>
         </ButtonStyle>
     );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {TextBlock} from "../TextBlock/TextBlock";
-import {SectionTitle} from "../SectionTitle/SectionTitle";
-import {ButtonsGroup} from "../ButtonsGroup/ButtonsGroup";
+import {TextBlock} from '../TextBlock/TextBlock';
+import {SectionTitle} from '../SectionTitle/SectionTitle';
+import {ButtonsGroup} from '../ButtonsGroup/ButtonsGroup';
 
 
 const AboutSectionStyles = styled.section`
@@ -39,8 +39,8 @@ export const AboutSection = () => {
         <AboutSectionStyles>
             <div className={'container'}>
                 <SectionTitle
-                    subtitleText="Let me introduce myself"
-                    titleText="About Me"
+                    subtitleText={'Let me introduce myself'}
+                    titleText={'About Me'}
                 />
                 <div className={'aboutSection__text'}>
                     <TextBlock>
@@ -48,14 +48,16 @@ export const AboutSection = () => {
                         (Architecture and Construction engineer, management),
                         so I got all my knowledge to start from scratch independently.
                         I got my basic knowledge of HTML/CSS at
-                        the <a href="https://htmlacademy.ru/profile/amidawolf" target="_blank"
-                               rel="noreferrer"> HTML Academy</a>.
+                        the <a href={'https://htmlacademy.ru/profile/amidawolf'}
+                               target={'_blank'}
+                               rel={'noreferrer'}> HTML Academy</a>.
                         Continuing to work on the main specialty,
                         I was doing small orders as a freelancer.
                     </TextBlock>
                     <TextBlock>
-                        A year later, I found out about the <a href="http://rollingscopes.com/" target="_blank"
-                                                               rel="noreferrer">RS-School</a> and
+                        A year later, I found out about the <a href={'http://rollingscopes.com/'}
+                                                               target={'_blank'}
+                                                               rel={'noreferrer'}>RS-School</a> and
                         passed a full course (advanced JS, advanced React). After that,
                         I continued to self-study and fulfill orders for freelancing.
                         I am constantly looking for new knowledge,

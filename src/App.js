@@ -10,26 +10,26 @@ import {CVPage} from "./pages/CV/CV";
 
 
 export default function App() {
-  return (
-      <BrowserRouter>
-        <MainMenu />
-        <Switch>
-            <Route exact path="/" >
-                <HomePage />
-            </Route>
-            <Route path="/about">
-                <AboutPage />
-            </Route>
-            <Route path="/projects">
-                <ProjectsPage />
-            </Route>
-            <Route path="/contacts">
-                <ContactsPage />
-            </Route>
-            <Route path="/cv">
-                <CVPage />
-            </Route>
-        </Switch>
-      </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <MainMenu/>
+            <Switch>
+                <Route exact path="/">
+                    <HomePage/>
+                </Route>
+                <Route path="/about">
+                    <AboutPage/>
+                </Route>
+                <Route path="/projects">
+                    <ProjectsPage/>
+                </Route>
+                <Route path="/contacts">
+                    <ContactsPage/>
+                </Route>
+                <Route path="/cv">
+                    <CVPage/>
+                </Route>
+            </Switch>
+        </BrowserRouter>
+    );
 }

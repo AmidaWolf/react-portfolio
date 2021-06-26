@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import heroImg from '../../assets/images/avatar.jpg';
 import socialMediaArrow from '../../assets/images/social-media-arrow.svg';
 import scrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
-import {TextBlock} from "../TextBlock/TextBlock";
-import {ButtonsGroup} from "../ButtonsGroup/ButtonsGroup";
+import {TextBlock} from '../TextBlock/TextBlock';
+import {ButtonsGroup} from '../ButtonsGroup/ButtonsGroup';
 
 
 const HeroSectionStyles = styled.section`
@@ -174,7 +174,7 @@ export const HeroSection = () => {
                     <span className={'hero__name'}>Yauhen Varapayeu</span>
                 </h1>
                 <div className={'hero__photo'}>
-                    <img src={heroImg} alt="Yauhen Varapayeu"/>
+                    <img src={heroImg} alt='Yauhen Varapayeu'/>
                 </div>
                 <div className={'hero__info'}>
                     <TextBlock>
@@ -190,36 +190,36 @@ export const HeroSection = () => {
                         secondBtnOutline
                     />
                 </div>
-                <div className="hero__social">
-                    <div className="hero__social__indicator">
+                <div className={'hero__social'}>
+                    <div className={'hero__social__indicator'}>
                         <p>Follow</p>
-                        <img src={socialMediaArrow} alt="social media arrow" />
+                        <img src={socialMediaArrow} alt={'social media arrow'}/>
                     </div>
-                    <div className="hero__social__text">
+                    <div className={'hero__social__text'}>
                         <ul>
                             <li>
                                 <a
-                                    href="https://t.me/AmidaWolf"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                    href={'https://t.me/AmidaWolf'}
+                                    target={'_blank'}
+                                    rel={'noreferrer'}
                                 >
                                     TG
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="https://www.linkedin.com/in/evgeniy-voropaev-aw"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                    href={'https://www.linkedin.com/in/evgeniy-voropaev-aw'}
+                                    target={'_blank'}
+                                    rel={'noreferrer'}
                                 >
                                     LI
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="https://github.com/AmidaWolf"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                    href={'https://github.com/AmidaWolf'}
+                                    target={'_blank'}
+                                    rel={'noreferrer'}
                                 >
                                     GH
                                 </a>
@@ -227,9 +227,9 @@ export const HeroSection = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="hero__scrollDown">
+                <div className={'hero__scrollDown'}>
                     <p>Scroll</p>
-                    <img src={scrollDownArrow} alt="scroll down arrow" />
+                    <img src={scrollDownArrow} alt={'scroll down arrow'}/>
                 </div>
             </div>
         </HeroSectionStyles>

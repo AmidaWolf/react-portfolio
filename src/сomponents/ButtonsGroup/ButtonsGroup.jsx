@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Button} from "../Button/Button";
+import {Button} from '../Button/Button';
 
 
 const ButtonsGroupStyle = styled.div`
@@ -43,12 +43,18 @@ export const ButtonsGroup = ({
                                  secondBtnOutline = false,
                              }) => {
     return (
-        <ButtonsGroupStyle className="buttons-wrapper">
-            <Button btnLink={firstBtnLink} btnText={firstBtnText} outline={firstBtnOutline}/>
+        <ButtonsGroupStyle className={'buttons-wrapper'}>
+            <Button
+                btnLink={firstBtnLink}
+                btnText={firstBtnText}
+                outline={firstBtnOutline}/>
             {
                 text ? <p>{text}</p> : null
             }
-            <Button btnLink={secondBtnLink} btnText={secondBtnText} outline={secondBtnOutline}/>
+            <Button
+                btnLink={secondBtnLink}
+                btnText={secondBtnText}
+                outline={secondBtnOutline}/>
         </ButtonsGroupStyle>
     );
 }

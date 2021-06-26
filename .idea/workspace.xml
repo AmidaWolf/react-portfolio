@@ -20,20 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/projects/Culture portal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/projects/MedService.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/projects/MonoChrome App.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/projects/Work Relax.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/projects/portfolio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/projects/projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/projects/ПроектИнтерКлассик.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectItem/ProjectItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectsSection.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/ContactBanner/ContactBanner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/сomponents/Footer/FooterCol/FooterCol.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/сomponents/ButtonsGroup/ButtonsGroup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ButtonsGroup/ButtonsGroup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/SkillsSection/SkillsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/SkillsSection/SkillsSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectsSection.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectItem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/сomponents/Footer/FooterCol" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\coding\react-portfolio\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -77,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\coding\react-portfolio\src\сomponents\ProjectsSection\ProjectItem" />
+      <recent name="C:\coding\react-portfolio\src\сomponents\Footer\FooterCol" />
       <recent name="C:\coding\react-portfolio\src\сomponents" />
+      <recent name="C:\coding\react-portfolio\src\сomponents\ProjectsSection\ProjectItem" />
       <recent name="C:\coding\react-portfolio\src\pages" />
       <recent name="C:\coding\react-portfolio\src\сomponents\ButtonsGroup" />
-      <recent name="C:\coding\react-portfolio\src\сomponents\HeroSection" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\coding\react-portfolio\src\data\projects" />
@@ -118,7 +114,7 @@
       <workItem from="1624373505916" duration="162000" />
       <workItem from="1624374222934" duration="342000" />
       <workItem from="1624377560197" duration="26010000" />
-      <workItem from="1624483957437" duration="50129000" />
+      <workItem from="1624483957437" duration="63789000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -162,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624561435207</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(Projects): add Projects&#10;&#10;add ProjectsSection.jsx and projects data, small style fixes">
+      <created>1624667848327</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624667848327</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +191,8 @@
     <MESSAGE value="feat(about): add AboutSection + SectionTitle" />
     <MESSAGE value="feat(ButtonsGroup): add ButtonsGroup.jsx&#10;&#10;small style fix" />
     <MESSAGE value="feat(SkillsSection): add SkillsSection + SkillsItem&#10;&#10;small style fix HeroSection.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(SkillsSection): add SkillsSection + SkillsItem&#10;&#10;small style fix HeroSection.jsx" />
+    <MESSAGE value="feat(Projects): add Projects&#10;&#10;add ProjectsSection.jsx and projects data, small style fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Projects): add Projects&#10;&#10;add ProjectsSection.jsx and projects data, small style fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -219,10 +223,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624455575989" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624561444768">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624667858694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624561444768" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624667858694" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624653147208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

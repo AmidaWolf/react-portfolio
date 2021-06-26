@@ -33,7 +33,7 @@ export const SectionTitle = ({
                                  titleText = 'title'
                              }) => {
     return (
-        <SectionTitleStyles className="section-title">
+        <SectionTitleStyles className={'section-title'}>
             {
                 subtitleText ? <p>{subtitleText}</p> : null
             }

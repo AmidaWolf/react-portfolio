@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+import {v4 as uuidv4} from 'uuid';
 import monochrome from './MonoChrome App.jpg';
 import workAndRelax from './Work Relax.jpg';
 import culturePortal from './Culture portal.jpg';
@@ -33,7 +33,7 @@ export const projects = [
         img: pik,
         deploy: 'https://piklassik.com/',
         github: null,
-        tags: ['JS','HTML/CSS', 'slick-slider', 'fansybox', 'gulp']
+        tags: ['JS', 'HTML/CSS', 'slick-slider', 'fansybox', 'gulp']
     },
     {
         id: uuidv4(),

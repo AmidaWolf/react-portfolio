@@ -1,8 +1,8 @@
 import React, {useRef, useState} from 'react';
-import {NavLink} from "react-router-dom";
-import {MdMenu, MdClose} from "react-icons/md";
+import {NavLink} from 'react-router-dom';
+import {MdMenu, MdClose} from 'react-icons/md';
 import styled from 'styled-components';
-import {useOutsideClickFunction} from "../../helper-functions/useOutsideClickForHide";
+import {useOutsideClickFunction} from '../../helper-functions/useOutsideClickForHide';
 
 
 const MainMenuStyles = styled.nav`
@@ -106,41 +106,55 @@ const MainMenuStyles = styled.nav`
 export const MainMenu = () => {
     const [showNav, setShowNav] = useState(false);
     const menuRef = useRef();
-    useOutsideClickFunction(menuRef, ()=>{setShowNav(!showNav)});
+    useOutsideClickFunction(menuRef, () => {
+        setShowNav(!showNav)
+    });
 
     return (
         <MainMenuStyles>
             <div
                 className={'mobileMenuIcon'}
-                onClick={()=>{setShowNav(!showNav)}}
+                onClick={() => {
+                    setShowNav(!showNav)
+                }}
                 role={'button'}
-                onKeyDown={()=>{setShowNav(!showNav)}}
-                tabIndex={"0"}
+                onKeyDown={() => {
+                    setShowNav(!showNav)
+                }}
+                tabIndex={'0'}
             >
-                <MdMenu />
+                <MdMenu/>
             </div>
             <ul
-                className={showNav ? 'navItems hide-item': 'navItems'}
-                onClick={()=>{setShowNav(!showNav)}}
+                className={showNav ? 'navItems hide-item' : 'navItems'}
+                onClick={() => {
+                    setShowNav(!showNav)
+                }}
                 role={'button'}
-                onKeyDown={()=>{setShowNav(!showNav)}}
-                tabIndex={"0"}
+                onKeyDown={() => {
+                    setShowNav(!showNav)
+                }}
+                tabIndex={'0'}
                 ref={menuRef}
             >
                 <div
-                    className="closeMenuIcon"
-                    onClick={()=>{setShowNav(!showNav)}}
+                    className='closeMenuIcon'
+                    onClick={() => {
+                        setShowNav(!showNav)
+                    }}
                     role={'button'}
-                    onKeyDown={()=>{setShowNav(!showNav)}}
-                    tabIndex={"0"}
+                    onKeyDown={() => {
+                        setShowNav(!showNav)
+                    }}
+                    tabIndex={'0'}
                 >
-                    <MdClose />
+                    <MdClose/>
                 </div>
-                <li><NavLink exact to="/">Home</NavLink></li>
-                <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/projects">Projects</NavLink></li>
-                <li><NavLink to="/contacts">Contacts</NavLink></li>
-                <li><NavLink to="/cv">CV</NavLink></li>
+                <li><NavLink exact to={'/'}>Home</NavLink></li>
+                <li><NavLink to={'/about'}>About</NavLink></li>
+                <li><NavLink to={'/projects'}>Projects</NavLink></li>
+                <li><NavLink to={'/contacts'}>Contacts</NavLink></li>
+                <li><NavLink to={'/cv'}>CV</NavLink></li>
             </ul>
         </MainMenuStyles>
     );

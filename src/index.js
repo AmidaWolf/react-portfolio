@@ -5,10 +5,10 @@ import GlobalStyles from './styles/GlobalStyle';
 import Typography from './styles/Typography';
 
 ReactDOM.render(
-  <>
-    <GlobalStyles />
-    <Typography />
-    <App />
-  </>,
-  document.getElementById('root')
+    <>
+        <GlobalStyles/>
+        <Typography/>
+        <App/>
+    </>,
+    document.getElementById('root')
 );

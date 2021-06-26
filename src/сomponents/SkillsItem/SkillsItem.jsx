@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import {SiReact} from "react-icons/all";
+import {SiReact} from 'react-icons/all';
 
-import {TextBlock} from "../TextBlock/TextBlock";
+import {TextBlock} from '../TextBlock/TextBlock';
 
 
 const SkillsItemStyle = styled.div`
@@ -22,14 +22,14 @@ text-align: center;
 `;
 
 export const SkillsItem = ({
-                                icon = <SiReact />,
-                                title = 'React',
-                                desc = "This is React description",
-                       }) => {
+                               icon = <SiReact/>,
+                               title = 'React',
+                               desc = 'This is React description',
+                           }) => {
     return (
-        <SkillsItemStyle className="skills-items-wrapper">
-            <div className="servicesItem__icon">{icon}</div>
-            <div className="servicesItem__title">{title}</div>
+        <SkillsItemStyle className={'skills-items-wrapper'}>
+            <div className={'servicesItem__icon'}>{icon}</div>
+            <div className={'servicesItem__title'}>{title}</div>
             <TextBlock>{desc}</TextBlock>
         </SkillsItemStyle>
     );

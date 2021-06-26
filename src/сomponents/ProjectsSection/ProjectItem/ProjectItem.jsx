@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 const ProjectItemStyles = styled.div`
@@ -72,17 +72,17 @@ export const ProjectItem = ({
                             }) => {
     return (
         <ProjectItemStyles>
-            <Link to="/projects" className="projectItem__img">
+            <Link to={'/projects'} className={'projectItem__img'}>
                 <img src={img} alt={title}/>
             </Link>
-            <div className="projectItem__info">
+            <div className={'projectItem__info'}>
                 <a
                     href={deploy}
-                    target="_blank"
-                    rel="noreferrer">
-                    <h3 className="projectItem__title">{title}</h3>
+                    target={'_blank'}
+                    rel={'noreferrer'}>
+                    <h3 className={'projectItem__title'}>{title}</h3>
                 </a>
-                <p className="projectItem__desc">{description}</p>
+                <p className={'projectItem__desc'}>{description}</p>
                 <p className={'projectItem__git'}>
                     Source code: {
                     !github || github.length === 0 ?
