@@ -10,7 +10,6 @@ const ButtonsGroupStyle = styled.div`
   max-width: 500px;
   width: 100%;
   gap: 2rem;
-  margin-top: 2rem;
   
   p {
     font-size: 2rem;
@@ -37,24 +36,30 @@ export const ButtonsGroup = ({
                                  firstBtnText = 'test1',
                                  firstBtnLink = '/',
                                  firstBtnOutline = false,
+                                 firstDwnldText = false,
                                  text,
                                  secondBtnText = 'test2',
                                  secondBtnLink = '/',
                                  secondBtnOutline = false,
+                                 secondDwnldText = false,
                              }) => {
     return (
         <ButtonsGroupStyle className={'buttons-wrapper'}>
             <Button
                 btnLink={firstBtnLink}
                 btnText={firstBtnText}
-                outline={firstBtnOutline}/>
+                outline={firstBtnOutline}
+                downloadText={firstDwnldText}
+            />
             {
                 text ? <p>{text}</p> : null
             }
             <Button
                 btnLink={secondBtnLink}
                 btnText={secondBtnText}
-                outline={secondBtnOutline}/>
+                outline={secondBtnOutline}
+                downloadText={secondDwnldText}
+            />
         </ButtonsGroupStyle>
     );
 }

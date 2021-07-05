@@ -66,7 +66,7 @@ SwiperCore.use([Navigation, A11y]);
 
 export const ProjectsSection = () => {
     return (
-        <ProjectsSectionStyles>
+        <ProjectsSectionStyles className={'section'}>
             <div className={'container'}>
                 <SectionTitle
                     subtitleText={'Some of my recent works'}

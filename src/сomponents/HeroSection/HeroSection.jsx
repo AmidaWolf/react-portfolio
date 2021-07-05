@@ -6,6 +6,7 @@ import socialMediaArrow from '../../assets/images/social-media-arrow.svg';
 import scrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
 import {TextBlock} from '../TextBlock/TextBlock';
 import {ButtonsGroup} from '../ButtonsGroup/ButtonsGroup';
+import CV from '../../assets/CV.pdf';
 
 
 const HeroSectionStyles = styled.section`
@@ -185,9 +186,10 @@ export const HeroSection = () => {
                         firstBtnText={'See my works'}
                         firstBtnLink={'/projects'}
                         text={'or'}
-                        secondBtnText={'Take my SV'}
-                        secondBtnLink={'/sv'}
+                        secondBtnText={'Take my CV'}
+                        secondBtnLink={CV}
                         secondBtnOutline
+                        secondDwnldText={'VarapayeuReactCV'}
                     />
                 </div>
                 <div className={'hero__social'}>

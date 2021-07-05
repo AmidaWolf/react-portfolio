@@ -38,7 +38,7 @@ const GlobalStyles = createGlobalStyle`
     width: 90%;
     margin: 0 auto;
   }
-  section {
+  .section {
     margin-top: 7rem;
     padding-bottom: 14rem;
   }

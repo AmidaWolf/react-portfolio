@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const TextBlockStyle = styled.div`
   max-width: 500px;
-  margin: 2rem auto 0 auto;
+  margin: 0 auto 2rem auto;
   font-size: 1.8rem;
   line-height: 1.5em;
   width: 100%;
@@ -23,7 +23,7 @@ const TextBlockStyle = styled.div`
 
 export const TextBlock = ({children = 'text'}) => {
     return (
-        <TextBlockStyle>
+        <TextBlockStyle className={'text-block'}>
             <p>{children}</p>
         </TextBlockStyle>
     );

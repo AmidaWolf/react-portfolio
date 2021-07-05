@@ -7,7 +7,6 @@ import {SkillsItem} from "../SkillsItem/SkillsItem";
 
 
 const SkillsSectionStyles = styled.section`
-
 .container {
     display: flex;
     flex-direction: column;
@@ -46,7 +45,7 @@ const SkillsSectionStyles = styled.section`
 
 export const SkillsSection = () => {
     return (
-        <SkillsSectionStyles>
+        <SkillsSectionStyles className={'section'}>
             <div className={'container'}>
                 <SectionTitle
                     titleText={"My Skills"}

@@ -30,10 +30,15 @@ export const Button = ({
                            btnText = 'test',
                            btnLink = 'test',
                            outline = false,
+                           downloadText = false
                        }) => {
     return (
         <ButtonStyle outline={outline} className={'button-wrapper'}>
-            <Link className={'button'} to={btnLink}>{btnText}</Link>
+            <Link
+                className={'button'}
+                to={btnLink}
+                download={downloadText}
+                target={downloadText ? '_blank' : null}>{btnText}</Link>
         </ButtonStyle>
     );
 }

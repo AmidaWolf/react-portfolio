@@ -6,7 +6,7 @@ import {Button} from '../Button/Button';
 
 
 const ContactBannerStyles = styled.section`
-padding: 5rem 0;
+
   .contactBanner__wrapper {
     background-color: var(--deep-dark);
     border-radius: 12px;
@@ -26,7 +26,7 @@ padding: 5rem 0;
 
 export const ContactBanner = () => {
     return (
-        <ContactBannerStyles>
+        <ContactBannerStyles className={'section'}>
             <div className={'container'}>
                 <div className={'contactBanner__wrapper'}>
                     <SectionTitle

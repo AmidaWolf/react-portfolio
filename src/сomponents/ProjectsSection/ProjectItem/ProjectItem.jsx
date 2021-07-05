@@ -79,7 +79,8 @@ export const ProjectItem = ({
                 <a
                     href={deploy}
                     target={'_blank'}
-                    rel={'noreferrer'}>
+                    rel={'noreferrer'}
+                >
                     <h3 className={'projectItem__title'}>{title}</h3>
                 </a>
                 <p className={'projectItem__desc'}>{description}</p>
@@ -87,7 +88,11 @@ export const ProjectItem = ({
                     Source code: {
                     !github || github.length === 0 ?
                         <span>upon request</span> :
-                        <a href={github}>{github}</a>
+                        <a
+                            href={github}
+                            target={'_blank'}
+                            rel={'noreferrer'}
+                        >{github}</a>
                 }
 
                 </p>

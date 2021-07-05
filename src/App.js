@@ -6,7 +6,6 @@ import {HomePage} from "./pages/Home/Home";
 import {ProjectsPage} from "./pages/Projects/Projects";
 import {AboutPage} from "./pages/About/About";
 import {ContactsPage} from "./pages/Contacts/Contacts";
-import {CVPage} from "./pages/CV/CV";
 
 
 export default function App() {
@@ -25,9 +24,6 @@ export default function App() {
                 </Route>
                 <Route path="/contacts">
                     <ContactsPage/>
-                </Route>
-                <Route path="/cv">
-                    <CVPage/>
                 </Route>
             </Switch>
         </BrowserRouter>

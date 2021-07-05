@@ -36,7 +36,7 @@ const AboutSectionStyles = styled.section`
 
 export const AboutSection = () => {
     return (
-        <AboutSectionStyles>
+        <AboutSectionStyles className={'section'}>
             <div className={'container'}>
                 <SectionTitle
                     subtitleText={'Let me introduce myself'}
@@ -45,29 +45,17 @@ export const AboutSection = () => {
                 <div className={'aboutSection__text'}>
                     <TextBlock>
                         I moved to Front-end development from another professional field
-                        (Architecture and Construction engineer, management),
-                        so I got all my knowledge to start from scratch independently.
-                        I got my basic knowledge of HTML/CSS at
-                        the <a href={'https://htmlacademy.ru/profile/amidawolf'}
-                               target={'_blank'}
-                               rel={'noreferrer'}> HTML Academy</a>.
+                        (Architecture and Construction engineer, management).
                         Continuing to work on the main specialty,
                         I was doing small orders as a freelancer.
                     </TextBlock>
                     <TextBlock>
-                        A year later, I found out about the <a href={'http://rollingscopes.com/'}
-                                                               target={'_blank'}
-                                                               rel={'noreferrer'}>RS-School</a> and
-                        passed a full course (advanced JS, advanced React). After that,
+                        A year later, I passed a full course advanced JS and advanced React. After that,
                         I continued to self-study and fulfill orders for freelancing.
-                        I am constantly looking for new knowledge,
-                        strive for development and get great pleasure from it.
                     </TextBlock>
                     <TextBlock>
                         I have a portfolio of educational projects,
                         several commercial sites and my own portfolio site (you are here now).
-                        Right now I plan to start working full time on the frontend only.
-                        A total reboot of career and life, something like that.
                     </TextBlock>
                 </div>
                 <ButtonsGroup
