@@ -7,7 +7,7 @@ export const experiences = [
         cardText: `Main responsibilities: Create sites and SPA for some employers.`
     },
     {
-        date: "5/2013 - Present",
+        date: "7/2013 - Present",
         cardTitle: "Director of Center of Architecture and Construction LLC",
         cardSubtitle:
             "Period of work - 8 years",
@@ -17,11 +17,19 @@ export const experiences = [
         maintaining financial activities of the enterprise.`
     },
     {
-        date: "4/2011 - 2/2013",
+        date: "6/2011 - 6/2013",
         cardTitle: "Engineer PTD",
         cardSubtitle:
             "Period of work - 2 years",
         cardText: `Main responsibilities: Estimated work, pricing, quality control of work performed, 
         preparation for participation in tenders, engineering support at construction sites.`
+    },
+    {
+        date: "8/2008 - 11/2010",
+        cardTitle: "Master building decorator",
+        cardSubtitle:
+            "Period of work - 2 years",
+        cardText: `Main responsibilities: Interior decoration, facade decoration, 
+        restoration work, construction team management.`
     }
 ]

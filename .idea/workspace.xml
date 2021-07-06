@@ -20,28 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/CV.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/experiences/experiences.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/AboutExtSection/AboutExtSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/сomponents/InfoItem/InfoItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CV/CV.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/AboutSection/AboutSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/ButtonsGroup/ButtonsGroup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ButtonsGroup/ButtonsGroup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/ContactBanner/ContactBanner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ContactBanner/ContactBanner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/HeroSection/HeroSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectItem/ProjectItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectItem/ProjectItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectsSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/SectionTitle/SectionTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/SectionTitle/SectionTitle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/SkillsSection/SkillsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/SkillsSection/SkillsSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/TextBlock/TextBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/TextBlock/TextBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/experiences/experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/experiences/experiences.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +111,8 @@
       <workItem from="1625053860385" duration="18336000" />
       <workItem from="1625140575166" duration="4720000" />
       <workItem from="1625154325127" duration="7773000" />
-      <workItem from="1625494817564" duration="9669000" />
+      <workItem from="1625494817564" duration="10144000" />
+      <workItem from="1625594057994" duration="1416000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -196,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624738582965</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat(About): add About page, refactor styles">
+      <created>1625515739918</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625515739918</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +213,8 @@
     <MESSAGE value="feat(Projects): add Projects&#10;&#10;add ProjectsSection.jsx and projects data, small style fixes" />
     <MESSAGE value="feat(Footer): add Footer + ContactBanner&#10;&#10;linting and small style fixes" />
     <MESSAGE value="refactor: add hrefs for this project" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: add hrefs for this project" />
+    <MESSAGE value="feat(About): add About page, refactor styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(About): add About page, refactor styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -236,30 +225,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624646447077" />
-    <state width="1345" height="175" key="GridCell.Tab.0.bottom" timestamp="1625495395818">
+    <state width="1345" height="175" key="GridCell.Tab.0.bottom" timestamp="1625515930161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625495395818" />
-    <state width="1345" height="175" key="GridCell.Tab.0.center" timestamp="1625495395818">
+    <state width="1345" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625515930161" />
+    <state width="1345" height="175" key="GridCell.Tab.0.center" timestamp="1625515930161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625495395818" />
-    <state width="1345" height="175" key="GridCell.Tab.0.left" timestamp="1625495395818">
+    <state width="1345" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625515930161" />
+    <state width="1345" height="175" key="GridCell.Tab.0.left" timestamp="1625515930160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625495395818" />
-    <state width="1345" height="175" key="GridCell.Tab.0.right" timestamp="1625495395818">
+    <state width="1345" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625515930160" />
+    <state width="1345" height="175" key="GridCell.Tab.0.right" timestamp="1625515930161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625495395818" />
+    <state width="1345" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625515930161" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1624455575989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624455575989" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1624738590461">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625515751780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1624738590461" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625515751780" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624653147208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
