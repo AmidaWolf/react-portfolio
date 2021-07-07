@@ -114,7 +114,7 @@
       <workItem from="1625494817564" duration="10144000" />
       <workItem from="1625594057994" duration="2228000" />
       <workItem from="1625597933361" duration="757000" />
-      <workItem from="1625669377813" duration="2522000" />
+      <workItem from="1625669377813" duration="2832000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -232,7 +232,8 @@
     <MESSAGE value="feat(About): add About page, refactor styles" />
     <MESSAGE value="refactor(experiences): change some info of works" />
     <MESSAGE value="refactor: correct time label, add _redirects" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: correct time label, add _redirects" />
+    <MESSAGE value="fix(MainMenu): fix opened menu from start" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(MainMenu): fix opened menu from start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">

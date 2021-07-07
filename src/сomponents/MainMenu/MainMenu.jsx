@@ -126,7 +126,7 @@ export const MainMenu = () => {
                 <MdMenu/>
             </div>
             <ul
-                className={showNav ? 'navItems' : 'hide-item'}
+                className={showNav ? 'navItems' : 'navItems hide-item'}
                 onClick={() => {
                     setShowNav(!showNav)
                 }}
