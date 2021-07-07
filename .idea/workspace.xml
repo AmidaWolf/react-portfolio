@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/MainMenu/MainMenu.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
       <workItem from="1625494817564" duration="10144000" />
       <workItem from="1625594057994" duration="2228000" />
       <workItem from="1625597933361" duration="757000" />
-      <workItem from="1625669377813" duration="2832000" />
+      <workItem from="1625669377813" duration="3786000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -200,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625670417979</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix(MainMenu): fix opened menu from start">
+      <created>1625672228381</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625672228381</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix(MainMenu): fix className for close button">
+      <created>1625672453669</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1625672453669</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +246,8 @@
     <MESSAGE value="refactor(experiences): change some info of works" />
     <MESSAGE value="refactor: correct time label, add _redirects" />
     <MESSAGE value="fix(MainMenu): fix opened menu from start" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(MainMenu): fix opened menu from start" />
+    <MESSAGE value="fix(MainMenu): fix className for close button" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(MainMenu): fix className for close button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -268,10 +282,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624455575989" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625670424688">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625672595128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625670424688" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625672595128" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624653147208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

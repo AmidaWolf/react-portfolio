@@ -89,52 +89,54 @@ padding: 10rem 0 10rem 0;
 
 export const AboutPage = () => {
     return (
-        <AboutPageStyles className={'container'}>
-            <AboutExtSection/>
-            <section className={'skills-experience section'}>
-                <SectionTitle
-                    subtitleText={'Something about my'}
-                    titleText={'Professional background'}
-                />
-                <div className={"skills"}>
-                    <h3 className={"info__title"}>Skills:</h3>
-                    <InfoItem
-                        title={"Frontend"}
-                        items={['HTML5', 'CSS3', 'JavaScript', 'REACT with hooks', 'REDUX', 'Webpack/Gulp']}
+        <>
+            <AboutPageStyles className={'container'}>
+                <AboutExtSection/>
+                <section className={'skills-experience section'}>
+                    <SectionTitle
+                        subtitleText={'Something about my'}
+                        titleText={'Professional background'}
                     />
-                    <InfoItem
-                        title={"OS and tools"}
-                        items={['Windows', 'Ubuntu/Mint', 'WebStorm', 'Git/Github/Gitlab', 'Figma', 'Photoshop']}
-                    />
-                    <InfoItem
-                        title={"Languages"}
-                        items={['English - A2', 'Russian - native', 'Belarusian - native',]}
-                    />
-                </div>
-                <div className={"experience"}>
-                    <h3 className={"info__title"}>Experiences:</h3>
-                    <div className={'timeline-wrapper'}>
-                        <Timeline lineColor={'var(--deep-dark)'}>
-                            {experiences.map((item, index) => (
-                                <TimelineItem
-                                    key={'00'+index+1}
-                                    dateText={item.date}
-                                    dateInnerStyle={{
-                                        background: 'var(--deep-dark)',
-                                        color: 'var(--gray-1)'
-                                    }}
-                                >
-                                    <h3 className={'timeline__title'}>{item.cardTitle}</h3>
-                                    <p className={'timeline__subtitle'}>{item.cardSubtitle}</p>
-                                    <p className={'timeline__text'}>{item.cardText}</p>
-                                </TimelineItem>
-                            ))}
-                        </Timeline>
+                    <div className={"skills"}>
+                        <h3 className={"info__title"}>Skills:</h3>
+                        <InfoItem
+                            title={"Frontend"}
+                            items={['HTML5', 'CSS3', 'JavaScript', 'REACT with hooks', 'REDUX', 'Webpack/Gulp']}
+                        />
+                        <InfoItem
+                            title={"OS and tools"}
+                            items={['Windows', 'Ubuntu/Mint', 'WebStorm', 'Git/Github/Gitlab', 'Figma', 'Photoshop']}
+                        />
+                        <InfoItem
+                            title={"Languages"}
+                            items={['English - A2', 'Russian - native', 'Belarusian - native',]}
+                        />
                     </div>
-                </div>
-            </section>
-
+                    <div className={"experience"}>
+                        <h3 className={"info__title"}>Experiences:</h3>
+                        <div className={'timeline-wrapper'}>
+                            <Timeline lineColor={'var(--deep-dark)'}>
+                                {experiences.map((item, index) => (
+                                    <TimelineItem
+                                        key={'00'+index+1}
+                                        dateText={item.date}
+                                        dateInnerStyle={{
+                                            background: 'var(--deep-dark)',
+                                            color: 'var(--gray-1)'
+                                        }}
+                                    >
+                                        <h3 className={'timeline__title'}>{item.cardTitle}</h3>
+                                        <p className={'timeline__subtitle'}>{item.cardSubtitle}</p>
+                                        <p className={'timeline__text'}>{item.cardText}</p>
+                                    </TimelineItem>
+                                ))}
+                            </Timeline>
+                        </div>
+                    </div>
+                </section>
+            </AboutPageStyles>
             <Footer/>
-        </AboutPageStyles>
+        </>
+
     );
 }
