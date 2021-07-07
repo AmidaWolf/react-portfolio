@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/experiences/experiences.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/experiences/experiences.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,9 @@
       <workItem from="1625140575166" duration="4720000" />
       <workItem from="1625154325127" duration="7773000" />
       <workItem from="1625494817564" duration="10144000" />
-      <workItem from="1625594057994" duration="1416000" />
+      <workItem from="1625594057994" duration="2228000" />
+      <workItem from="1625597933361" duration="757000" />
+      <workItem from="1625669377813" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -184,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625515739918</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor(experiences): change some info of works">
+      <created>1625596024161</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625596024161</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +223,8 @@
     <MESSAGE value="feat(Footer): add Footer + ContactBanner&#10;&#10;linting and small style fixes" />
     <MESSAGE value="refactor: add hrefs for this project" />
     <MESSAGE value="feat(About): add About page, refactor styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(About): add About page, refactor styles" />
+    <MESSAGE value="refactor(experiences): change some info of works" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(experiences): change some info of works" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -245,10 +255,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624455575989" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625515751780">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1625596031953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625515751780" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625596031953" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624653147208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

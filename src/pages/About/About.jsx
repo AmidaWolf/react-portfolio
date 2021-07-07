@@ -81,7 +81,8 @@ padding: 10rem 0 10rem 0;
         font-size: 1.4rem;
       }
       .timeline-item-date {
-        
+        width: 110%;
+        font-size: 1.4rem;
       }
   }
 `;
@@ -107,7 +108,7 @@ export const AboutPage = () => {
                     />
                     <InfoItem
                         title={"Languages"}
-                        items={['English - A2', 'Russian - native', 'Belorussian - native',]}
+                        items={['English - A2', 'Russian - native', 'Belarusian - native',]}
                     />
                 </div>
                 <div className={"experience"}>
