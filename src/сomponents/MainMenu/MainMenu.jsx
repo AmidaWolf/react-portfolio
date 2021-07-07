@@ -107,7 +107,7 @@ export const MainMenu = () => {
     const [showNav, setShowNav] = useState(false);
     const menuRef = useRef();
     useOutsideClickFunction(menuRef, () => {
-        setShowNav(!showNav)
+        setShowNav(false)
     });
 
     return (
@@ -126,7 +126,7 @@ export const MainMenu = () => {
                 <MdMenu/>
             </div>
             <ul
-                className={showNav ? 'navItems hide-item' : 'navItems'}
+                className={showNav ? 'navItems' : 'hide-item'}
                 onClick={() => {
                     setShowNav(!showNav)
                 }}
