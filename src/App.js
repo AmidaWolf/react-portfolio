@@ -6,6 +6,7 @@ import {HomePage} from "./pages/Home/Home";
 import {ProjectsPage} from "./pages/Projects/Projects";
 import {AboutPage} from "./pages/About/About";
 import {ContactsPage} from "./pages/Contacts/Contacts";
+import {Footer} from "./сomponents/Footer/Footer";
 
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
                     <ContactsPage/>
                 </Route>
             </Switch>
+            <Footer/>
         </BrowserRouter>
     );
 }

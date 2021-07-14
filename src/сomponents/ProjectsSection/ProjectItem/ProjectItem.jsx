@@ -111,7 +111,6 @@ export const ProjectItem = ({
                             }
                         </ul>
                 }
-
             </div>
         </ProjectItemStyles>
     );

@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e71ee32e-d4c9-4398-ae1b-0a36d2c001dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectItem/ProjectItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/сomponents/ProjectsSection/ProjectItem/ProjectItem.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +68,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\coding\react-portfolio\src\data\" />
+      <recent name="C:\coding\react-portfolio\src\data\projects" />
+      <recent name="C:\coding\react-portfolio\src\сomponents\TextBlock" />
+      <recent name="C:\coding\react-portfolio\src\сomponents\Button" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\coding\react-portfolio\src\сomponents" />
       <recent name="C:\coding\react-portfolio\src\сomponents\AboutExtSection" />
       <recent name="C:\coding\react-portfolio\src\сomponents\Footer\FooterCol" />
       <recent name="C:\coding\react-portfolio\src\сomponents\ProjectsSection\ProjectItem" />
       <recent name="C:\coding\react-portfolio\src\pages" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\coding\react-portfolio\src\data\" />
-      <recent name="C:\coding\react-portfolio\src\data\projects" />
-      <recent name="C:\coding\react-portfolio\src\сomponents\TextBlock" />
-      <recent name="C:\coding\react-portfolio\src\сomponents\Button" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,7 +118,8 @@
       <workItem from="1625494817564" duration="10144000" />
       <workItem from="1625594057994" duration="2228000" />
       <workItem from="1625597933361" duration="757000" />
-      <workItem from="1625669377813" duration="3786000" />
+      <workItem from="1625669377813" duration="6439000" />
+      <workItem from="1626267318247" duration="15351000" />
     </task>
     <task id="LOCAL-00001" summary="feat(all): create project&#10;&#10;add global styles and typography, add some images">
       <created>1624367288309</created>
@@ -213,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625672453669</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix(About): fix footer outside div-container">
+      <created>1625673508084</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625673508084</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +260,8 @@
     <MESSAGE value="refactor: correct time label, add _redirects" />
     <MESSAGE value="fix(MainMenu): fix opened menu from start" />
     <MESSAGE value="fix(MainMenu): fix className for close button" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(MainMenu): fix className for close button" />
+    <MESSAGE value="fix(About): fix footer outside div-container" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(About): fix footer outside div-container" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624364260096">
@@ -262,22 +276,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624646447077" />
-    <state width="1345" height="175" key="GridCell.Tab.0.bottom" timestamp="1625670280148">
+    <state width="1345" height="175" key="GridCell.Tab.0.bottom" timestamp="1626270271272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625670280148" />
-    <state width="1345" height="175" key="GridCell.Tab.0.center" timestamp="1625670280147">
+    <state width="1345" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626270271272" />
+    <state width="1345" height="175" key="GridCell.Tab.0.center" timestamp="1626270271272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625670280147" />
-    <state width="1345" height="175" key="GridCell.Tab.0.left" timestamp="1625670280147">
+    <state width="1345" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626270271272" />
+    <state width="1345" height="175" key="GridCell.Tab.0.left" timestamp="1626270271272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625670280147" />
-    <state width="1345" height="175" key="GridCell.Tab.0.right" timestamp="1625670280148">
+    <state width="1345" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626270271272" />
+    <state width="1345" height="175" key="GridCell.Tab.0.right" timestamp="1626270271272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625670280148" />
+    <state width="1345" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626270271272" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1624455575989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

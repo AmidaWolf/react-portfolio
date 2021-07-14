@@ -4,7 +4,7 @@ import {AboutSection} from "../../сomponents/AboutSection/AboutSection";
 import {SkillsSection} from "../../сomponents/SkillsSection/SkillsSection";
 import {ProjectsSection} from "../../сomponents/ProjectsSection/ProjectsSection";
 import {ContactBanner} from "../../сomponents/ContactBanner/ContactBanner";
-import {Footer} from "../../сomponents/Footer/Footer";
+
 
 export const HomePage = () => {
     return (
@@ -14,7 +14,6 @@ export const HomePage = () => {
             <SkillsSection/>
             <ProjectsSection/>
             <ContactBanner/>
-            <Footer/>
         </>
     );
 }
