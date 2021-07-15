@@ -116,7 +116,7 @@ const HeroSectionStyles = styled.section`
   }
   @media only screen and (max-width: 768px) {
      min-height: 750px;
-     margin-top: 7rem;
+     padding-top: 7rem;
       
     .hero__title {
       font-size: 1.4rem;
