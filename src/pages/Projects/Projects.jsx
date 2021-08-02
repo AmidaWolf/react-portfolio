@@ -105,6 +105,9 @@ export const ProjectsPage = () => {
                                     github={item.github}
                                     tags={item.tags}
                                     img={item.img}
+                                    img2x={item.img2x}
+                                    imgAvif={item.imgAvif}
+                                    imgWebp={item.imgWebp}
                                 />
                             ))
                             :

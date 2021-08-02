@@ -1,9 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
 
 
 const ProjectItemStyles = styled.div`
+a {
+    border-bottom: 2px solid var(--white);
+    overflow-wrap: break-word;
+  }
+a:hover{
+    color: var(--white);
+    border-bottom: 2px solid var(--white);
+  }
+
 .projectItem__img {
     width: 100%;
     height: 400px;
@@ -31,10 +39,6 @@ const ProjectItemStyles = styled.div`
     font-family: 'RobotoMono Regular',serif;
     margin-bottom: 2rem;
   }
-  .projectItem__git a{
-    border-bottom: 2px solid var(--white);
-    overflow-wrap: break-word;
-  }
   .projectItem__tags {
     margin-bottom: 1rem;
     display: flex;
@@ -60,10 +64,16 @@ const ProjectItemStyles = styled.div`
   }
 `;
 
-const placeholderImgSrc = 'https://via.placeholder.com/1366x643.png?text=Site+Image+placeholder'
+const placeholderImgSrc = 'https://via.placeholder.com/1366x643.png?text=Site+Image+placeholder';
+const placeholderImgSrc2x = 'https://via.placeholder.com/1366x643.png?text=Site+Image+placeholder+2x';
+const placeholderImgSrcWebp = 'https://via.placeholder.com/1366x643.png?text=Site+Image+placeholder+WebP';
+const placeholderImgSrcAvif = 'https://via.placeholder.com/1366x643.png?text=Site+Image+placeholder+Avif';
 
 export const ProjectItem = ({
                                 img = placeholderImgSrc,
+                                imgAvif = placeholderImgSrcAvif,
+                                imgWebp = placeholderImgSrcWebp,
+                                img2x = placeholderImgSrc2x,
                                 title = 'Project Name.',
                                 description = 'Project desription.',
                                 deploy = 'Project deploy.',
@@ -72,17 +82,23 @@ export const ProjectItem = ({
                             }) => {
     return (
         <ProjectItemStyles>
-            <Link to={'/projects'} className={'projectItem__img'}>
-                <img src={img} alt={title}/>
-            </Link>
+            <div className={'projectItem__img'}>
+                <picture>
+                    <source type="image/avif" srcSet={imgAvif}/>
+                    <source type="image/webp" srcSet={imgWebp}/>
+                    <img src={img} srcSet={img2x} alt={title}/>
+                </picture>
+            </div>
             <div className={'projectItem__info'}>
-                <a
-                    href={deploy}
-                    target={'_blank'}
-                    rel={'noreferrer'}
-                >
-                    <h3 className={'projectItem__title'}>{title}</h3>
-                </a>
+                <h3 className={'projectItem__title'}>
+                    <a
+                        href={deploy}
+                        target={'_blank'}
+                        rel={'noreferrer'}
+                    >
+                        {title}
+                    </a>
+                </h3>
                 <p className={'projectItem__desc'}>{description}</p>
                 <p className={'projectItem__git'}>
                     Source code: {

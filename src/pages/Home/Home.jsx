@@ -3,7 +3,6 @@ import {HeroSection} from "../../сomponents/HeroSection/HeroSection";
 import {AboutSection} from "../../сomponents/AboutSection/AboutSection";
 import {SkillsSection} from "../../сomponents/SkillsSection/SkillsSection";
 import {ProjectsSection} from "../../сomponents/ProjectsSection/ProjectsSection";
-import {ContactBanner} from "../../сomponents/ContactBanner/ContactBanner";
 
 
 export const HomePage = () => {
@@ -13,7 +12,6 @@ export const HomePage = () => {
             <AboutSection/>
             <SkillsSection/>
             <ProjectsSection/>
-            <ContactBanner/>
         </>
     );
 }

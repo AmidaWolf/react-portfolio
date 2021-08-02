@@ -107,6 +107,9 @@ export const ProjectsSection = () => {
                                     <ProjectItem
                                         title={project.name}
                                         img={project.img}
+                                        img2x={project.img2x}
+                                        imgAvif={project.imgAvif}
+                                        imgWebp={project.imgWebp}
                                         description={project.description}
                                         deploy={project.deploy}
                                         github={project.github}

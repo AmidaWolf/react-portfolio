@@ -20,8 +20,8 @@ const FooterStyles = styled.footer`
   .footer__col4 {
     flex: 1;
   }
-  .footer__col1__title {
-    font-size: 3.5rem;
+  .footer-col1__title {
+    font-size: 3rem;
     margin-bottom: 1rem;
   }
   .copyright {
