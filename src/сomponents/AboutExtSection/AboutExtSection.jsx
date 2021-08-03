@@ -5,7 +5,10 @@ import {TextBlock} from '../TextBlock/TextBlock';
 import {SectionTitle} from '../SectionTitle/SectionTitle';
 import {Button} from "../Button/Button";
 import CV from "../../assets/CV.pdf";
-import avatar from "../../assets/images/avatar.jpg";
+import heroImgAvif from "../../assets/images/avatar.avif";
+import heroImgWebp from "../../assets/images/avatar.webp";
+import heroImg from "../../assets/images/avatar.jpg";
+import heroImg2x from "../../assets/images/avatar2x.jpg";
 
 
 const AboutExtSectionStyles = styled.section`
@@ -110,7 +113,11 @@ export const AboutExtSection = () => {
             </div>
             <Button btnLink={CV} btnText={'Download CV'} downloadText={'VarapayeuReactCV'}/>
             <div className={'about-section__img'}>
-                <img src={avatar} alt="Yauhen Varapayeu"/>
+                <picture>
+                    <source type="image/avif" srcSet={heroImgAvif}/>
+                    <source type="image/webp" srcSet={heroImgWebp}/>
+                    <img src={heroImg} srcSet={heroImg2x} alt='Yauhen Varapayeu'/>
+                </picture>
             </div>
         </AboutExtSectionStyles>
     );

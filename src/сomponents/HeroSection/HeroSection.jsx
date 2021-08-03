@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 import heroImg from '../../assets/images/avatar.jpg';
+import heroImg2x from '../../assets/images/avatar2x.jpg';
+import heroImgAvif from '../../assets/images/avatar.avif';
+import heroImgWebp from '../../assets/images/avatar.webp';
 import socialMediaArrow from '../../assets/images/social-media-arrow.svg';
 import scrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
 import {TextBlock} from '../TextBlock/TextBlock';
@@ -175,7 +178,11 @@ export const HeroSection = () => {
                     <span className={'hero__name'}>Yauhen Varapayeu</span>
                 </h1>
                 <div className={'hero__photo'}>
-                    <img src={heroImg} alt='Yauhen Varapayeu'/>
+                    <picture>
+                        <source type="image/avif" srcSet={heroImgAvif}/>
+                        <source type="image/webp" srcSet={heroImgWebp}/>
+                        <img src={heroImg} srcSet={heroImg2x} alt='Yauhen Varapayeu'/>
+                    </picture>
                 </div>
                 <div className={'hero__info'}>
                     <TextBlock>
