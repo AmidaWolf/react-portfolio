@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {TextBlock} from '../TextBlock/TextBlock';
 import {SectionTitle} from '../SectionTitle/SectionTitle';
 import {Button} from "../Button/Button";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/VarapayeuReactCV.pdf";
 import heroImgAvif from "../../assets/images/avatar.avif";
 import heroImgWebp from "../../assets/images/avatar.webp";
 import heroImg from "../../assets/images/avatar.jpg";

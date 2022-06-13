@@ -9,7 +9,7 @@ import socialMediaArrow from '../../assets/images/social-media-arrow.svg';
 import scrollDownArrow from '../../assets/images/scroll-down-arrow.svg';
 import {TextBlock} from '../TextBlock/TextBlock';
 import {ButtonsGroup} from '../ButtonsGroup/ButtonsGroup';
-import CV from '../../assets/CV.pdf';
+import CV from '../../assets/VarapayeuReactCV.pdf';
 
 
 const HeroSectionStyles = styled.section`
