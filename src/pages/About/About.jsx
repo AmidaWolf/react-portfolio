@@ -99,7 +99,7 @@ export const AboutPage = () => {
                     <h3 className={"info__title"}>Skills:</h3>
                     <InfoItem
                         title={"Frontend"}
-                        items={['HTML5', 'CSS3', 'JavaScript', 'REACT with hooks', 'REDUX', 'Webpack/Gulp']}
+                        items={['HTML5', 'CSS3', 'JavaScript', 'REACT v18+', 'REDUX with Toolkit', 'Webpack/Gulp']}
                     />
                     <InfoItem
                         title={"OS and tools"}

@@ -96,9 +96,9 @@ export const AboutExtSection = () => {
                     I was doing small orders as a freelancer.
                 </TextBlock>
                 <TextBlock>
-                    A year later, I found out about the <a href={'http://rollingscopes.com/'}
+                    A year later, I found out about the <a href={'https://rs.school/'}
                                                            target={'_blank'}
-                                                           rel={'noreferrer'}>RS-School</a> and
+                                                           rel={'noreferrer'}>RSSchool</a> and
                     passed a full course (advanced JS, advanced React). After that,
                     I continued to self-study and fulfill orders for freelancing.
                     I am constantly looking for new knowledge,
@@ -107,8 +107,16 @@ export const AboutExtSection = () => {
                 <TextBlock>
                     I have a portfolio of educational projects,
                     several commercial sites and my own portfolio site (you are here now).
-                    Right now I plan to start working full time on the frontend only.
-                    A total reboot of career and life, something like that.
+
+                    In 2022, I upgraded my skills at new courses in <a href={'https://rs.school/'}
+                                                                       target={'_blank'}
+                                                                       rel={'noreferrer'}>RSSchool</a> (
+                    <a href={'https://app.rs.school/certificate/tn7crqcd'}
+                       target={'_blank'}
+                       rel={'noreferrer'}>JavaScript/Typescript</a> + <a href={'https://app.rs.school/certificate/bupdbh09'}
+                                                                           target={'_blank'}
+                                                                           rel={'noreferrer'}>React/Redux</a>).
+                    And now I'm looking for full-time job. In high priority, remote or partly remote job.
                 </TextBlock>
             </div>
             <Button btnLink={CV} btnText={'Download CV'} downloadText={'VarapayeuReactCV'}/>

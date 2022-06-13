@@ -124,6 +124,10 @@ export const Footer = () => {
                                 title: 'GitHub',
                                 path: 'https://github.com/AmidaWolf',
                             },
+                            {
+                                title: 'RSSchool profile',
+                                path: 'https://app.rs.school/cv/47d6664e-aad2-4312-80ec-760719fd196b',
+                            },
                         ]}
                     />
                 </div>

@@ -91,13 +91,17 @@ export const ProjectItem = ({
             </div>
             <div className={'projectItem__info'}>
                 <h3 className={'projectItem__title'}>
-                    <a
-                        href={deploy}
-                        target={'_blank'}
-                        rel={'noreferrer'}
-                    >
-                        {title}
-                    </a>
+                    {
+                        !deploy || deploy.length === 0 ?
+                            <span>{title} with local deploy</span> :
+                            <a
+                                href={deploy}
+                                target={'_blank'}
+                                rel={'noreferrer'}
+                            >
+                                {title}
+                            </a>
+                    }
                 </h3>
                 <p className={'projectItem__desc'}>{description}</p>
                 <p className={'projectItem__git'}>

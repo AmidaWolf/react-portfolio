@@ -233,6 +233,15 @@ export const HeroSection = () => {
                                     GH
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    href={'https://app.rs.school/cv/47d6664e-aad2-4312-80ec-760719fd196b'}
+                                    target={'_blank'}
+                                    rel={'noreferrer'}
+                                >
+                                    RS
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

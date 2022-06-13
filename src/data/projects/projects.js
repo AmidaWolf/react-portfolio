@@ -1,4 +1,16 @@
 import {v4 as uuidv4} from 'uuid';
+import pma from './pma small.jpg';
+import pma2x from './pma small2x.jpg';
+import pmaWebp from './pma small.webp';
+import pmaAvif from './pma small.avif';
+import rslang from './rslang small.jpg';
+import rslang2x from './rslang small2x.jpg';
+import rslangWebp from './rslang small.webp';
+import rslangAvif from './rslang small.avif';
+import jjit from './jjit.jpg';
+import jjit2x from './jjit small2x.jpg';
+import jjitWebp from './jjit small.webp';
+import jjitAvif from './jjit small.avif';
 import monochrome from './MonoChrome small.jpg';
 import monochrome2x from './MonoChrome small2x.jpg';
 import monochromeWebp from './MonoChrome small.webp';
@@ -27,15 +39,27 @@ import portfolioAvif from './portfolio small.avif';
 export const projects = [
     {
         id: uuidv4(),
-        name: 'Monochrome - social network',
-        description: 'This site was created for training purposes using React with hooks and Redux.',
-        img: monochrome,
-        img2x: monochrome2x,
-        imgWebp: monochromeWebp,
-        imgAvif: monochromeAvif,
-        deploy: 'https://amidawolf.github.io/.react-way-of-samurai/',
-        github: 'https://github.com/AmidaWolf/.react-way-of-samurai',
-        tags: ['react', 'react hooks', 'redux', 'react-redux', 'formik', 'redux-thunk', 'CSS-modules', 'jest', 'gh-pages']
+        name: 'PMA - project management app',
+        description: 'Basic Trello-clone app with auth. Final task of the RSSchool (React). Group work as a lead developer. ',
+        img: pma,
+        img2x: pma2x,
+        imgWebp: pmaWebp,
+        imgAvif: pmaAvif,
+        deploy: 'https://pma-team38.netlify.app/',
+        github: 'https://github.com/Tianika/project-management-app/tree/develop',
+        tags: ['react', 'redux', 'react-redux', 'redux toolkit', 'axios', 'i18next', 'styled components', 'react-hook-form', 'beautiful-dnd', 'netlify']
+    },
+    {
+        id: uuidv4(),
+        name: 'RSLang - web app for learning english',
+        description: 'Learn 3.600 basic english words with auth, personal dictionary, minigames and statistic. Final task of the RSSchool (JavaScript/Frontend). Group work as a team lead.',
+        img: rslang,
+        img2x: rslang2x,
+        imgWebp: rslangWebp,
+        imgAvif: rslangAvif,
+        deploy: 'https://rslang-amidawolf.netlify.app/',
+        github: 'https://github.com/AmidaWolf/rslang',
+        tags: ['JS', 'TypeScript', 'SCSS', 'webpack', 'netlify']
     },
     {
         id: uuidv4(),
@@ -64,6 +88,18 @@ export const projects = [
     },
     {
         id: uuidv4(),
+        name: 'JJIT',
+        description: 'justjoin.it basic clone with alternative functions and frontend. Pure JS/HTML/CSS. Only local run (read README.md in repo). Group weekend-project with backend-engineer. ',
+        img: jjit,
+        img2x: jjit2x,
+        imgWebp: jjitWebp,
+        imgAvif: jjitAvif,
+        deploy: null,
+        github: 'https://github.com/ArchiKeV/jjit',
+        tags: ['JS', 'HTML/CSS']
+    },
+    {
+        id: uuidv4(),
         name: 'MedService',
         description: 'My first commercial experience. ' +
             'The easiest site, does not originally suspected a mobile version. Pure HTML/CSS.',
@@ -78,7 +114,7 @@ export const projects = [
     {
         id: uuidv4(),
         name: 'Culture portal',
-        description: 'Culture portal about Belarusian theatre directors. Final task of the RS-school. Group work.',
+        description: 'Culture portal about Belarusian theatre directors. Final task of the RSSchool (Javascript/React). Group work.',
         img: culturePortal,
         img2x: culturePortal2x,
         imgWebp: culturePortalWebp,
@@ -98,5 +134,17 @@ export const projects = [
         deploy: 'https://awportfolio-site.netlify.app/',
         github: 'https://github.com/AmidaWolf/react-portfolio',
         tags: ['react', 'react hooks', 'styled-components', 'swiper', 'uuid', 'jest']
-    }
+    },
+    {
+        id: uuidv4(),
+        name: 'Monochrome - social network',
+        description: 'This site was created for training purposes using React with hooks and Redux.',
+        img: monochrome,
+        img2x: monochrome2x,
+        imgWebp: monochromeWebp,
+        imgAvif: monochromeAvif,
+        deploy: 'https://amidawolf.github.io/.react-way-of-samurai/',
+        github: 'https://github.com/AmidaWolf/.react-way-of-samurai',
+        tags: ['react', 'react hooks', 'redux', 'react-redux', 'formik', 'redux-thunk', 'CSS-modules', 'jest', 'gh-pages']
+    },
 ]

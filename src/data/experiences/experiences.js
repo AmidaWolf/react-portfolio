@@ -3,7 +3,7 @@ export const experiences = [
         date: "9/2019 - Present",
         cardTitle: "Web-developer - freelance",
         cardSubtitle:
-            "Period of work - 2 years",
+            "Period of work - 1.5 years",
         cardText: `Main responsibilities: Create sites and SPA for some employers.`
     },
     {

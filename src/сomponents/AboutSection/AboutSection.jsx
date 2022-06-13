@@ -51,11 +51,12 @@ export const AboutSection = () => {
                     </TextBlock>
                     <TextBlock>
                         A year later, I passed a full course advanced JS and advanced React. After that,
-                        I continued to self-study and fulfill orders for freelancing.
+                        I continued to self-study and worked as a freelance web developer
+                        within a team of backend developer, designer and team leader.
                     </TextBlock>
                     <TextBlock>
-                        I have a portfolio of educational projects,
-                        several commercial sites and my own portfolio site (you are here now).
+                        In 2022, I upgraded my skills at RS School (Typescript + React + Redux).
+                        And now I'm looking for full-time job, in high priority, remote or partly remote job.
                     </TextBlock>
                 </div>
                 <ButtonsGroup
